@@ -29,5 +29,9 @@ declare module '@jupyter/chat' {
      * persona can route frontend commands back to it.
      */
     web_client_id?: string;
+    /**
+     * Optional reasoning trace from the model's internal chain-of-thought.
+     */
+    reasoning?: string;
   }
 }
